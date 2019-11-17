@@ -863,6 +863,18 @@ Function SetDEPOptIn {
 	bcdedit /set `{current`} nx OptIn | Out-Null
 }
 
+# Disable warnings when executing PowerShell scripts
+Function DisablePsScriptsWarning {
+	Write-Output "Disabling warnings when executing PowerShell scripts..."
+	Set-ExecutionPolicy Bypass
+}
+
+# Enable warnings when executing PowerShell scripts
+Function EnablePsScriptsWarning {
+	Write-Output "Enabling warnings when executing PowerShell scripts..."
+	Set-ExecutionPolicy Default
+}
+
 ##########
 #endregion Security Tweaks
 ##########
