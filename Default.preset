@@ -213,7 +213,11 @@ InstallHyperV                   # UninstallHyperV
 UninstallXPSPrinter             # InstallXPSPrinter
 RemoveFaxPrinter                # AddFaxPrinter
 UninstallFaxAndScan             # InstallFaxAndScan
+
+### Chocolatey Specific Tweaks ###
+
 InstallChocolatey
+# InstallFamilyPackages         # InstallHomePackages           # InstallWorkPackages
 
 ### Server Specific Tweaks ###
 # HideServerManagerOnLogin      # ShowServerManagerOnLogin
