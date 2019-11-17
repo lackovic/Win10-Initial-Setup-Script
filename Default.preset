@@ -207,8 +207,8 @@ UninstallWorkFolders            # InstallWorkFolders
 # InstallLinuxSubsystem         # UninstallLinuxSubsystem
 InstallHyperV                   # UninstallHyperV
 # InstallNET23                  # UninstallNET23
-# SetPhotoViewerAssociation       # UnsetPhotoViewerAssociation
-# AddPhotoViewerOpenWith          # RemovePhotoViewerOpenWith
+# SetPhotoViewerAssociation     # UnsetPhotoViewerAssociation
+# AddPhotoViewerOpenWith        # RemovePhotoViewerOpenWith
 # UninstallPDFPrinter           # InstallPDFPrinter
 UninstallXPSPrinter             # InstallXPSPrinter
 RemoveFaxPrinter                # AddFaxPrinter
