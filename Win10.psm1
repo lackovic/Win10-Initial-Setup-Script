@@ -3499,6 +3499,12 @@ Function InstallFaxAndScan {
 	Enable-WindowsOptionalFeature -Online -FeatureName "FaxServicesClientPackage" -NoRestart -WarningAction SilentlyContinue | Out-Null
 }
 
+# Install Chocolatey - Requires DisablePsScriptsWarning
+Function InstallChocolatey {
+	Write-Output "Installing Chocolatey..."
+	Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-WebRequest https://chocolatey.org/install.ps1 -UseBasicParsing | Invoke-Expression
+}
+
 ##########
 #endregion Application Tweaks
 ##########

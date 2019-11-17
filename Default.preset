@@ -213,6 +213,7 @@ UninstallWorkFolders            # InstallWorkFolders
 UninstallXPSPrinter             # InstallXPSPrinter
 RemoveFaxPrinter                # AddFaxPrinter
 UninstallFaxAndScan             # InstallFaxAndScan
+InstallChocolatey
 
 ### Server Specific Tweaks ###
 # HideServerManagerOnLogin      # ShowServerManagerOnLogin
