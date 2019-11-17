@@ -1,3 +1,5 @@
+This is a fork of [Disassembler0/Win10-Initial-Setup-Script](https://github.com/Disassembler0/Win10-Initial-Setup-Script) with [these](https://github.com/Disassembler0/Win10-Initial-Setup-Script/compare/master...lackovic:master) differences.
+
 ## Contents
  - [Description](#description)
  - [Usage](#usage)
