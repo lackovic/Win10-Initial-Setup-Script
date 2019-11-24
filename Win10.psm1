@@ -3514,32 +3514,32 @@ Function InstallChocolatey {
 # Install Chocolatey family packages - Requires InstallChocolatey
 Function InstallFamilyPackages {
 	Write-Output "Installing Chocolatey family packages..."
-	Invoke-Expression choco install -y ((new-object net.webclient).DownloadString("/chocolatey/common.config"))
-	Invoke-Expression choco install -y ((new-object net.webclient).DownloadString("/chocolatey/multimedia.config"))
-	Invoke-Expression choco install -y ((new-object net.webclient).DownloadString("/chocolatey/sharing.config"))
+	Invoke-Expression choco install -y ((new-object net.webclient).DownloadString("/configs/common.config"))
+	Invoke-Expression choco install -y ((new-object net.webclient).DownloadString("/configs/multimedia.config"))
+	Invoke-Expression choco install -y ((new-object net.webclient).DownloadString("/configs/sharing.config"))
 }
 
 # Install Chocolatey home packages - Requires InstallChocolatey
 Function InstallHomePackages {
 	Write-Output "Installing Chocolatey home packages..."
-	Invoke-Expression choco install -y ((new-object net.webclient).DownloadString("/chocolatey/common.config"))
-	Invoke-Expression choco install -y ((new-object net.webclient).DownloadString("/chocolatey/multimedia.config"))
-	Invoke-Expression choco install -y ((new-object net.webclient).DownloadString("/chocolatey/dev.config"))
-	Invoke-Expression choco install -y ((new-object net.webclient).DownloadString("/chocolatey/editors.config"))
-	Invoke-Expression choco install -y ((new-object net.webclient).DownloadString("/chocolatey/productivity.config"))
-	Invoke-Expression choco install -y ((new-object net.webclient).DownloadString("/chocolatey/gaming.config"))
-	Invoke-Expression choco install -y ((new-object net.webclient).DownloadString("/chocolatey/sharing.config"))
+	Invoke-Expression choco install -y ((new-object net.webclient).DownloadString("/configs/common.config"))
+	Invoke-Expression choco install -y ((new-object net.webclient).DownloadString("/configs/multimedia.config"))
+	Invoke-Expression choco install -y ((new-object net.webclient).DownloadString("/configs/dev.config"))
+	Invoke-Expression choco install -y ((new-object net.webclient).DownloadString("/configs/editors.config"))
+	Invoke-Expression choco install -y ((new-object net.webclient).DownloadString("/configs/productivity.config"))
+	Invoke-Expression choco install -y ((new-object net.webclient).DownloadString("/configs/gaming.config"))
+	Invoke-Expression choco install -y ((new-object net.webclient).DownloadString("/configs/sharing.config"))
 }
 
 # Install Chocolatey work packages - Requires InstallChocolatey
 Function InstallWorkPackages {
 	Write-Output "Installing Chocolatey work packages..."
-	Invoke-Expression choco install -y ((new-object net.webclient).DownloadString("/chocolatey/common.config"))
-	Invoke-Expression choco install -y ((new-object net.webclient).DownloadString("/chocolatey/multimedia.config"))
-	Invoke-Expression choco install -y ((new-object net.webclient).DownloadString("/chocolatey/dev.config"))
-	Invoke-Expression choco install -y ((new-object net.webclient).DownloadString("/chocolatey/editors.config"))
-	Invoke-Expression choco install -y ((new-object net.webclient).DownloadString("/chocolatey/productivity.config"))
-	Invoke-Expression choco install -y ((new-object net.webclient).DownloadString("/chocolatey/work.config"))
+	Invoke-Expression choco install -y ((new-object net.webclient).DownloadString("/configs/common.config"))
+	Invoke-Expression choco install -y ((new-object net.webclient).DownloadString("/configs/multimedia.config"))
+	Invoke-Expression choco install -y ((new-object net.webclient).DownloadString("/configs/dev.config"))
+	Invoke-Expression choco install -y ((new-object net.webclient).DownloadString("/configs/editors.config"))
+	Invoke-Expression choco install -y ((new-object net.webclient).DownloadString("/configs/productivity.config"))
+	Invoke-Expression choco install -y ((new-object net.webclient).DownloadString("/configs/work.config"))
 }
 
 ##########
