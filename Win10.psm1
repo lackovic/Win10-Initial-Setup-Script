@@ -3524,6 +3524,18 @@ Function InstallFaxAndScan {
 	Enable-WindowsOptionalFeature -Online -FeatureName "FaxServicesClientPackage" -NoRestart -WarningAction SilentlyContinue | Out-Null
 }
 
+# Uninstall Telnet Client
+Function UninstallTelnetClient {
+	Write-Output "Installing Telnet Client..."
+	Disable-WindowsOptionalFeature -Online -FeatureName "TelnetClient" -NoRestart -WarningAction SilentlyContinue | Out-Null
+}
+
+# Install Telnet Client
+Function InstallTelnetClient {
+	Write-Output "Installing Telnet Client..."
+	Enable-WindowsOptionalFeature -Online -FeatureName "TelnetClient" -NoRestart -WarningAction SilentlyContinue | Out-Null
+}
+
 ##########
 #endregion Application Tweaks
 ##########

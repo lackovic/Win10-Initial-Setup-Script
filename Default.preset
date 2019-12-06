@@ -215,6 +215,7 @@ InstallHyperV                   # UninstallHyperV
 UninstallXPSPrinter             # InstallXPSPrinter
 RemoveFaxPrinter                # AddFaxPrinter
 UninstallFaxAndScan             # InstallFaxAndScan
+InstallTelnetClient             # UninstallTelnetClient
 
 ### Server Specific Tweaks ###
 # HideServerManagerOnLogin      # ShowServerManagerOnLogin
