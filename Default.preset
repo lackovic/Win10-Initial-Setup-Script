@@ -185,6 +185,7 @@ HideDesktopFromThisPC           # ShowDesktopInThisPC
 # DisableThumbnails             # EnableThumbnails
 DisableThumbnailCache           # EnableThumbnailCache
 DisableThumbsDBOnNetwork        # EnableThumbsDBOnNetwork
+SetSimpleTempDirectoryPath      # RestoreTempDirectoryPath
 
 ### Application Tweaks ###
 DisableOneDrive                 # EnableOneDrive

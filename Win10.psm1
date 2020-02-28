@@ -2824,6 +2824,24 @@ Function EnableThumbsDBOnNetwork {
 	Remove-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" -Name "DisableThumbsDBOnNetworkFolders" -ErrorAction SilentlyContinue
 }
 
+# Sets simple Temp directory path
+Function SetSimpleTempDirectoryPath {
+	Write-Output "Setting simple Temp directory path..."
+	setx TEMP "%SYSTEMDRIVE%\Temp"
+	setx TMP "%SYSTEMDRIVE%\Temp"
+	setx /M TEMP "%SYSTEMDRIVE%\Temp"
+	setx /M TMP "%SYSTEMDRIVE%\Temp"
+}
+
+# Restores Temp directory path
+Function RestoreTempDirectoryPath {
+	Write-Output "Restoring Temp directory path..."
+	setx TEMP "%LOCALAPPDATA%\Temp"
+	setx TMP "%LOCALAPPDATA%\Temp"
+	setx /M TEMP "%SYSTEMROOT%\Temp"
+	setx /M TMP "%SYSTEMROOT%\Temp"
+}
+
 ##########
 #endregion Explorer UI Tweaks
 ##########
