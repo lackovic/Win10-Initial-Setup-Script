@@ -83,6 +83,7 @@ EnableUpdateMSProducts          # DisableUpdateMSProducts
 # DisableUpdateAutoDownload     # EnableUpdateAutoDownload
 DisableUpdateRestart            # EnableUpdateRestart
 DisableMaintenanceWakeUp        # EnableMaintenanceWakeUp
+# DisableAutoRestartSignOn      # EnableAutoRestartSignOn
 DisableSharedExperiences        # EnableSharedExperiences
 EnableClipboardHistory          # DisableClipboardHistory
 DisableAutoplay                 # EnableAutoplay
@@ -201,7 +202,8 @@ DisableEdgeShortcutCreation     # EnableEdgeShortcutCreation
 DisableIEFirstRun               # EnableIEFirstRun
 DisableFirstLogonAnimation      # EnableFirstLogonAnimation
 DisableMediaSharing             # EnableMediaSharing
-UninstallMediaPlayer          # InstallMediaPlayer
+# EnableDeveloperMode           # DisableDeveloperMode
+UninstallMediaPlayer            # InstallMediaPlayer
 # UninstallInternetExplorer     # InstallInternetExplorer
 UninstallWorkFolders            # InstallWorkFolders
 # UninstallPowerShellV2         # InstallPowerShellV2
