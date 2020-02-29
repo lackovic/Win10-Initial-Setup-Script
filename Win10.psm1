@@ -2827,10 +2827,10 @@ Function EnableThumbsDBOnNetwork {
 # Sets simple Temp directory path
 Function SetSimpleTempDirectoryPath {
 	Write-Output "Setting simple Temp directory path..."
-	setx TEMP "%SYSTEMDRIVE%\Temp"
-	setx TMP "%SYSTEMDRIVE%\Temp"
-	setx /M TEMP "%SYSTEMDRIVE%\Temp"
-	setx /M TMP "%SYSTEMDRIVE%\Temp"
+	setx TEMP "%SYSTEMDRIVE%\Temp\LocalAppData"
+	setx TMP "%SYSTEMDRIVE%\Temp\LocalAppData"
+	setx /M TEMP "%SYSTEMDRIVE%\Temp\Windows"
+	setx /M TMP "%SYSTEMDRIVE%\Temp\Windows"
 }
 
 # Restores Temp directory path
