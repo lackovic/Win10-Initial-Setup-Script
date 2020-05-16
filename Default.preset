@@ -127,12 +127,14 @@ DisableSearchAppInStore         # EnableSearchAppInStore
 DisableNewAppPrompt             # EnableNewAppPrompt
 HideRecentlyAddedApps           # ShowRecentlyAddedApps
 HideMostUsedApps                # ShowMostUsedApps
+# SetWinXMenuPowerShell         # SetWinXMenuCmd
 # SetControlPanelSmallIcons     # SetControlPanelLargeIcons     # SetControlPanelCategories
 DisableShortcutInName           # EnableShortcutInName
 # HideShortcutArrow             # ShowShortcutArrow
 # SetVisualFXPerformance        # SetVisualFXAppearance
 # EnableTitleBarColor           # DisableTitleBarColor
-# EnableDarkTheme               # DisableDarkTheme
+# SetAppsDarkMode               # SetAppsLightMode
+# SetSystemLightMode            # SetSystemDarkMode
 # AddENKeyboard                 # RemoveENKeyboard
 # EnableNumlock                 # DisableNumlock
 # DisableEnhPointerPrecision    # EnableEnhPointerPrecision
@@ -165,6 +167,7 @@ HideRecentShortcuts             # ShowRecentShortcuts
 # ShowUserFolderOnDesktop       # HideUserFolderFromDesktop
 # ShowControlPanelOnDesktop     # HideControlPanelFromDesktop
 # ShowNetworkOnDesktop          # HideNetworkFromDesktop
+# HideDesktopIcons              # ShowDesktopIcons
 # ShowBuildNumberOnDesktop      # HideBuildNumberFromDesktop
 HideDesktopFromThisPC           # ShowDesktopInThisPC
 # HideDesktopFromExplorer       # ShowDesktopInExplorer
@@ -214,6 +217,7 @@ UninstallWorkFolders            # InstallWorkFolders
 # InstallHyperV                 # UninstallHyperV
 # UninstallSSHClient            # InstallSSHClient
 # InstallSSHServer              # UninstallSSHServer
+# InstallTelnetClient           # UninstallTelnetClient
 # InstallNET23                  # UninstallNET23
 # SetPhotoViewerAssociation     # UnsetPhotoViewerAssociation
 # AddPhotoViewerOpenWith        # RemovePhotoViewerOpenWith
@@ -221,7 +225,6 @@ UninstallWorkFolders            # InstallWorkFolders
 UninstallXPSPrinter             # InstallXPSPrinter
 RemoveFaxPrinter                # AddFaxPrinter
 UninstallFaxAndScan             # InstallFaxAndScan
-# InstallTelnetClient           # UninstallTelnetClient
 
 ### Server Specific Tweaks ###
 # HideServerManagerOnLogin      # ShowServerManagerOnLogin
