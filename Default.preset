@@ -130,7 +130,7 @@ HideMostUsedApps                # ShowMostUsedApps
 # SetControlPanelSmallIcons     # SetControlPanelLargeIcons     # SetControlPanelCategories
 DisableShortcutInName           # EnableShortcutInName
 # HideShortcutArrow             # ShowShortcutArrow
-SetVisualFXPerformance          # SetVisualFXAppearance
+# SetVisualFXPerformance        # SetVisualFXAppearance
 # EnableTitleBarColor           # DisableTitleBarColor
 # EnableDarkTheme               # DisableDarkTheme
 # AddENKeyboard                 # RemoveENKeyboard
